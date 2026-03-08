@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Imran The Legend 🤡</title>
+
+<style>
+
+body{
+margin:0;
+padding:0;
+font-family:Arial;
+background:linear-gradient(135deg,#ff6a00,#ffb347);
+text-align:center;
+overflow:hidden;
+}
+
+h1{
+margin-top:40px;
+font-size:40px;
+color:white;
+}
+
+img{
+width:220px;
+height:220px;
+border-radius:50%;
+border:5px solid white;
+margin-top:20px;
+}
+
+p{
+font-size:20px;
+color:white;
+padding:20px;
+}
+
+button{
+padding:15px 30px;
+font-size:18px;
+border:none;
+border-radius:30px;
+background:white;
+cursor:pointer;
+margin:10px;
+transition:0.3s;
+}
+
+button:hover{
+background:black;
+color:white;
+}
+
+.emoji{
+position:absolute;
+font-size:30px;
+animation:float 6s linear infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(100vh);}
+100%{transform:translateY(-10vh);}
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>😈 Meet My Bharwa Friend</h1>
+
+<img src="k:\dost\imran.jpeg">
+
+<p>
+Yeh hai <b>Imran</b> 🤡 <br>
+Duniya ka sabse bada legend dost 😂
+</p>
+
+<button onclick="roast1()">zxc.gamer</button>
+<button onclick="roast2()">Imran</button>
+
+<audio id="music1" src="k:\dost\music.mpeg"></audio>
+<audio id="music2" src="k:\dost\music1.mpeg"></audio>
+
+<script>
+
+function roast1(){
+document.getElementById("music1").play();
+alert("Breaking News 🚨\nImran officially certified Bharwa hai 🤣");
+}
+
+function roast2(){
+document.getElementById("music2").play();
+alert("Warning ⚠\nImran se door rahe... yeh dosti ke naam pe dhokha deta hai 😂");
+}
+
+for(let i=0;i<20;i++){
+let e=document.createElement("div");
+e.className="emoji";
+e.innerHTML="😂";
+e.style.left=Math.random()*100+"vw";
+e.style.animationDuration=(3+Math.random()*5)+"s";
+document.body.appendChild(e);
+}
+
+</script>
+
+</body>
+</html>
